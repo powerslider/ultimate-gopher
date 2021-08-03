@@ -201,3 +201,5 @@ In languages like PHP, the data type is associated to the value:
 $s = "Gophers rock";        // $s is a string
 $s = 123;                   // $s is now an integer
 ```
+
+[Next Section](numeric-types.md)
