@@ -4,6 +4,10 @@
 - [Keywords](keywords.md)
 - [Operators and Delimiters](operators-and-delimiters.md)
 - [Declaring Variables](declaring-variables.md)
+- [Numeric Types](numeric-types.md)
+- [Booleans](booleans.md)
+- [Strings](strings.md)
+- [UTF-8](utf-8.md)
 
 ## Overview
 In this chapter we will cover the fundamentals of the Go programming language, e.g.:
