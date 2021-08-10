@@ -5,6 +5,7 @@
 - [Interpreted String Literals](#interpreted-string-literals)
 
 ## Overview
+
 A string is a sequence of one or more characters (letters, numbers, symbols) that can be either a constant or a
 variable.
 
@@ -14,6 +15,7 @@ variable.
   an _interpreted string literal_.
 
 ## Raw String Literals
+
 - Raw string literals are character sequences between back quotes, often called back ticks. Within the quotes, any
   character may appear except back quote.
 
@@ -23,6 +25,7 @@ s := `Say "hello" to Go!`
 
 - Backslashes have no special meaning inside of raw string literals.
 - Raw string literals may also be used to create multiline strings:
+
 ```go
 s := `Lorem Ipsum is simply dummy text of the printing and
       typesetting industry. Lorem Ipsum has been the industry's 
@@ -36,13 +39,16 @@ s := `Lorem Ipsum is simply dummy text of the printing and
 ```
 
 ## Interpreted String Literals
-- Interpreted string literals are character sequences between double quotes, as in `"bar"`. Within the quotes, any 
+
+- Interpreted string literals are character sequences between double quotes, as in `"bar"`. Within the quotes, any
   character may appear except newline and unescaped double quote.
+
 ```go
 s := "Say \"hello\" to Go!"
 ```
+
 - You will almost always use interpreted string literals because they allow for escape characters within them.
 
-[Next Section](utf-8.md)
+[Next Section](07-printing.md)
 
-[Previous Section](booleans.md)
+[Previous Section](05-booleans.md)

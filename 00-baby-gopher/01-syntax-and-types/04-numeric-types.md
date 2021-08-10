@@ -103,7 +103,8 @@ __NOTE__
 ## Saturation
 
 Go does not saturate variables during mathematical operations such as addition or multiplication.
-- In languages that saturate, if you had a `uint8` with a max value of `255`, and added `1`, the value would still be 
+
+- In languages that saturate, if you had a `uint8` with a max value of `255`, and added `1`, the value would still be
   the max (saturated) value of `255`.
 - In Go, however, it will always wrap around. There is no saturation in Go.
 
@@ -112,14 +113,16 @@ var maxUint8 uint8 = 11
 maxUint8 = maxUint8 * 25
 fmt.Println("new value:", maxUint8)
 ```
+
 - Output:
+
 ```go
 new value: 19
 ```
 
-[Next Section](booleans.md)
+[Next Section](05-booleans.md)
 
-[Previous Section](declaring-variables.md)
+[Previous Section](03-declaring-variables.md)
 
 
 

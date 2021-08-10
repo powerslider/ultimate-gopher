@@ -1,5 +1,7 @@
 # Operators and Delimiters
+
 The following character sequences represent operators (including assignment operators) and punctuation:
+
 ```
 +    &     +=    &=     &&    ==    !=    (    )
 -    |     -=    |=     ||    <     <=    [    ]
@@ -11,6 +13,6 @@ The following character sequences represent operators (including assignment oper
 
 For more details check the [official docs](https://golang.org/ref/spec#Operators_and_punctuation).
 
-[Next Section](declaring-variables.md)
+[Next Section](03-declaring-variables.md)
 
-[Previous Section](keywords.md)
+[Previous Section](01-keywords.md)
