@@ -9,8 +9,9 @@
 - [Strings](06-strings.md)
 - [Printing](07-printing.md)
 - [UTF-8](08-utf-8.md)
-- [Constants](09-constants.md)
-- [Iota](10-iota.md)
+- [Comments](09-comments.md) 
+- [Constants](10-constants.md)
+- [Iota](11-iota.md)
 
 ## Overview
 

@@ -158,6 +158,6 @@ a*d = 8 (int)
 a*e = 8 (int32)
 ```
 
-[Next Section](10-iota.md)
+[Next Section](11-iota.md)
 
-[Previous Section](08-utf-8.md)
+[Previous Section](09-comments.md)
