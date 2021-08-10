@@ -44,3 +44,5 @@ s := "Say \"hello\" to Go!"
 - You will almost always use interpreted string literals because they allow for escape characters within them.
 
 [Next Section](utf-8.md)
+
+[Previous Section](booleans.md)

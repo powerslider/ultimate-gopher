@@ -203,3 +203,5 @@ $s = 123;                   // $s is now an integer
 ```
 
 [Next Section](numeric-types.md)
+
+[Previous Section](operators-and-delimiters.md)

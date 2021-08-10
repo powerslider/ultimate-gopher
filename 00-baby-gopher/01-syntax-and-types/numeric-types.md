@@ -119,5 +119,7 @@ new value: 19
 
 [Next Section](booleans.md)
 
+[Previous Section](declaring-variables.md)
+
 
 

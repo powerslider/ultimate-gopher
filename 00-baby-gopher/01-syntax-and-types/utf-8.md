@@ -1,3 +1,92 @@
 # UTF-8
 
+- [Overview](#overview)
+  - [History of Unicode](#history-of-unicode)
+- [Runes](#runes)
+
 ## Overview
+Go supports UTF-8 characters out of the box without any special setup, libraries or packages.
+```go
+a := "Hello, 世界"
+```
+### History of Unicode
+- In the past there was only one character set known as `ASCII` or the _American Standard Code for Information 
+Interchange_ available. 
+- Here we use `7` bits to represent `128` characters, including upper and lowercase English letters, digits, and a 
+  variety of punctuations and device-control characters. 
+- Due to those limitations most of the population of the world is not able to use their own writing system on the 
+  computer. 
+- To solve this problem `Unicode` was invented. It is a superset of `ASCII` and contains all the characters present in 
+  the world’s writing system including accents and other diacritical marks, control codes like tab and carriage return, 
+  and assigns each of them a standard number called a `Unicode code point`
+- In Go this is referred to as a `rune`. The `rune` type is an alias of `int32`.
+
+## Runes
+A `rune` is a special type in Go that represents special characters.
+- You can define a `rune` using the single quote `'` character:
+
+```go
+a := 'A'
+fmt.Println(a)
+```
+- If you run the program, it prints out the value of `65`.
+- The reason is that runes in Go are a special type.
+- As mentioned earlier a `rune` is an alias for `int32` which can be made up of 1 to 3 `int32` values.
+
+
+- In many languages, the correct way to iterate over a string would look very much like the following:
+```go
+s := "Hello, 世界" // 9 characters (including the space and comma)
+for i := 0; i < len(a); i++ {
+	fmt.Printf("%d: %s\n", i, string(s[i]))
+}
+```
+[Run Code](https://play.golang.org/p/DGWCQ1CBq1m)
+- Unfortunately the output would be the following:
+```
+0: H
+1: e
+2: l
+3: l
+4: o
+5: ,
+6:  
+7: ä
+8: ¸
+9: 
+10: ç
+11: 
+12: 
+```
+- Notice the unexpected characters that were printed out for index 7-12? This is because we are printing only a part of 
+  the `rune` as an `int32`, not the entire set of `int32`'s that make up the `rune`.
+- The proper way to avoid this pitfall is to use the `range` keyword when looping through each character of the string:
+
+```go
+s := "Hello, 世界"
+for i, c := range s {
+	fmt.Printf("%d: %s\n", i, string(c))
+}
+```
+[Run Code](https://play.golang.org/p/A0kEtEBhKOM)
+- The correct output would be the following:
+```
+0: H
+1: e
+2: l
+3: l
+4: o
+5: ,
+6:  
+7: 世
+10: 界
+```
+---
+__NOTE__
+
+>`range` ensures that we use the proper index and length of `int32`'s to capture the proper `rune` value.
+---
+
+[Next Section](constants.md)
+
+[Previous Section](strings.md)

@@ -26,3 +26,5 @@ fmt.Println(found)
 ```
 
 [Next Section](strings.md)
+
+[Previous Section](numeric-types.md)
