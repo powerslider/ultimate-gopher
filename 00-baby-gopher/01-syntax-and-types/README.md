@@ -12,6 +12,7 @@
 - [Comments](09-comments.md) 
 - [Constants](10-constants.md)
 - [Iota](11-iota.md)
+- [Structs](12-structs.md)
 
 ## Overview
 
