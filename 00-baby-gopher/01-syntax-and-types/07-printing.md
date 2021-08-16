@@ -49,19 +49,26 @@ Hello gopher
 - Here are some examples:
 
 ```go
-a := 1
-fmt.Println("This will join all arguments and print them.  a =  ", a)
+package main
 
-fmt.Printf("This is the `format` string. Escape \" and print value of a: %v\n", a)
+import "fmt"
 
 type User struct {
-Name string
+  Name string
 }
-u := User{Name: "Peter"}
-fmt.Printf("user: %+v", u)
+
+func main() {
+  a := 1
+  fmt.Println("This will join all arguments and print them.  a =  ", a)
+
+  fmt.Printf("This is the `format` string. Escape \" and print value of a: %v\n", a)
+
+  u := User{Name: "Peter"}
+  fmt.Printf("user: %+v", u)
+}
 ```
 
-[Run Code](https://play.golang.org/p/GIv8uX2XfkU)
+[Run Code](https://play.golang.org/p/SAXIMIgrjDW)
 
 Output:
 
