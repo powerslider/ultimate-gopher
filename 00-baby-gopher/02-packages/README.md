@@ -1,7 +1,9 @@
 # Chapter 2: Packages
 
 - [Overview](#overview)
-- [Definition]()
+- [Definition](01-definition.md)
+- [Scope and Visibility](02-scope-and-visibility.md)
+- [Package Organization](03-)
 
 ## Overview
 

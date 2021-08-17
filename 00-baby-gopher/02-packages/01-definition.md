@@ -1,9 +1,10 @@
-## Definition
+# Definition
 
 - [Overview](#overview)
 - [Package Names](#package-names)
 - [Executable Packages](#executable-packages)
 - [Package Resolution](#package-resolution)
+- [File Names](#file-names)
 
 ## Overview
 
@@ -69,6 +70,21 @@ import "github.com/gorilla/mux"
 
 ```
 $GOPATH/src/github.com/gorilla/mux
+```
+
+## File Names
+
+- Inside packages there are no requirements as to what the names of the files inside that package are to be named.
+- However, it is common practice to name the _entrypoint_ file after the name of the package.
+- For example, a package named `storage` would probably have a `storage.go` file inside as the main _entrypoint_ to that
+  package. It is also the file where you would write your top level comments that will show up when you generate your
+  code documentation.
+
+```
+storage
+    |_storage.go
+    |_driver.go
+    |_etc.
 ```
 
 [Next Section](02-scope-and-visibility.md)
