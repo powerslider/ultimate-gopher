@@ -70,6 +70,6 @@ func main() {
 
 [Run Code](example/main.go)
 
-[Next Section](03-package-organization.md)
+[Next Section](03-workspaces.md)
 
 [Previous Section](01-definition.md)
