@@ -52,3 +52,5 @@ s := "Say \"hello\" to Go!"
 [Next Section](07-printing.md)
 
 [Previous Section](05-booleans.md)
+
+[Chapter Overview](README.md)

@@ -18,6 +18,6 @@ In this chapter we will cover:
 
 [Start Chapter](01-definition.md)
 
-[Next Chapter](../03-arrays-and-slices/README.md)
+[Next Chapter](../03-arrays-and-iteration/README.md)
 
 [Previous Chapter](../01-syntax-and-types/README.md)

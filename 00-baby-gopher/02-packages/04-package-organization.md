@@ -355,6 +355,8 @@ __NOTE__
 - `main` package initializes and ties everything together.
 - Avoid global scope and `init()`.
 
-[Next Chapter](../03-arrays-and-slices/README.md)
+[Next Chapter](../03-arrays-and-iteration/README.md)
 
 [Previous Section](03-workspaces.md)
+
+[Chapter Overview](README.md)

@@ -33,3 +33,5 @@ fmt.Println(found)
 [Next Section](06-strings.md)
 
 [Previous Section](04-numeric-types.md)
+
+[Chapter Overview](README.md)

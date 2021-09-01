@@ -235,3 +235,5 @@ $s = 123;                   // $s is now an integer
 [Next Section](04-numeric-types.md)
 
 [Previous Section](02-operators-and-delimiters.md)
+
+[Chapter Overview](README.md)

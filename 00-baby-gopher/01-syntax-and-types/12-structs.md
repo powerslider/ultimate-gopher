@@ -230,4 +230,9 @@ user: {Homer Simpson homer@example.com}
 user: {First:Homer Last:Simpson Email:homer@example.com}
 ```
 
+[Next Chapter](../02-packages/README.md)
+
 [Previous Section](11-iota.md)
+
+[Chapter Overview](README.md)
+

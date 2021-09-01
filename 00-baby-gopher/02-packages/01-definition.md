@@ -107,3 +107,5 @@ $GOPATH/src/github.com/gorilla/mux
 [Next Section](02-scope-and-visibility.md)
 
 [Previous Chapter](../01-syntax-and-types/README.md)
+
+[Chapter Overview](README.md)

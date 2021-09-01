@@ -93,3 +93,5 @@ $GOPATH/
 [Next Section](04-package-organization.md)
 
 [Previous Section](02-scope-and-visibility.md)
+
+[Chapter Overview](README.md)

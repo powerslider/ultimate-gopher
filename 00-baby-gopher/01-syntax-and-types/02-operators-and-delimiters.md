@@ -16,3 +16,5 @@ For more details check the [official docs](https://golang.org/ref/spec#Operators
 [Next Section](03-declaring-variables.md)
 
 [Previous Section](01-keywords.md)
+
+[Chapter Overview](README.md)
