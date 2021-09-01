@@ -354,3 +354,7 @@ __NOTE__
 - All other project files (fixtures, resources, docs, Docker, etc.) - root dir of your project.
 - `main` package initializes and ties everything together.
 - Avoid global scope and `init()`.
+
+[Next Chapter](../03-arrays-and-slices/README.md)
+
+[Previous Section](03-workspaces.md)

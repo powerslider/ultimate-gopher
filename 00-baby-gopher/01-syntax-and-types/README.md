@@ -30,3 +30,5 @@ In this chapter we will cover the fundamentals of the Go programming language, e
 - How to use `iota`
 
 [Start Chapter](01-keywords.md)
+
+[Next Chapter](../02-packages/README.md)

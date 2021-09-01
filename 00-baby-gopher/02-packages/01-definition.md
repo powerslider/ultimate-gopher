@@ -55,10 +55,10 @@ buf := new(bytes.Buffer)
   code documentation.
 
 ```
-storage
-    |_storage.go
-    |_driver.go
-    |_etc.
+storage/
+  storage.go
+  driver.go
+  ...
 ```
 
 ## Executable Packages
@@ -105,3 +105,5 @@ $GOPATH/src/github.com/gorilla/mux
 ```
 
 [Next Section](02-scope-and-visibility.md)
+
+[Previous Chapter](../01-syntax-and-types/README.md)

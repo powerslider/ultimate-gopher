@@ -27,7 +27,7 @@ var a int
 var a int = 1
 ```
 
-- The above mentioned declaration forms are called __long variable declarations__ in Go.
+- The above-mentioned declaration forms are called __long variable declarations__ in Go.
 - You can also use __short variable declaration__:
 
 ```go
@@ -44,7 +44,7 @@ Based on the three ways to declare variables, the Go community has adopted the f
 var a int
 ```
 
-- __Rule 2__: Use ___short form declaration__ when declaring and initializing a variable:
+- __Rule 2__: Use __short form declaration__ when declaring and initializing a variable:
 
 ```go
 a := 1
@@ -161,7 +161,7 @@ var Email string
 ```go
 names := []string{"Susan", "George", "Rob", "Anna"}
 for i, n := range names {
-fmt.Printf("index: %d = %q\n", i, n)
+    fmt.Printf("index: %d = %q\n", i, n)
 }
 ```
 
