@@ -137,10 +137,12 @@ Output:
 ## Setting Array Values
 
 ---
+
 __IMPORTANT__
 
-When creating two arrays, and then setting the value of one array to the other, they still continue to have their own
-memory space.
+>When creating two arrays, and then setting the value of one array to the other, they still continue to have their own
+>memory space.
+
 ---
 
 ```go
