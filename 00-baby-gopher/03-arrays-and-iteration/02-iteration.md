@@ -20,6 +20,8 @@ for i := 0; i < N; i++ {
 
 ## Iterating over Arrays
 
+- Iterating over arrays is done using a `for` loop:
+
 ```go
 package main
 
@@ -44,6 +46,8 @@ James
 George
 Lewis
 ```
+
+- The `len` function returns the length of the array.
 
 ## Continuing a Loop
 
