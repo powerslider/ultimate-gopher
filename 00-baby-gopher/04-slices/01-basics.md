@@ -8,10 +8,9 @@
 - [Making a Slice](#making-a-slice)
 - [Two-Dimensional Slices](#two-dimensional-slices)
 
-
 ## Overview
 
-Slices are kind of similar to arrays, fixed type, dynamically sized and very flexible:
+- Slices are kind of similar to arrays, fixed type, dynamically sized and very flexible:
 
 ```go
 package main
@@ -92,9 +91,9 @@ Output:
 
 ```go
 type slice struct {
-    Length   int
-    Capacity int
-    Array    [10]array
+Length   int
+Capacity int
+Array    [10]array
 }
 ```
 
@@ -141,6 +140,9 @@ __IMPORTANT__
 ---
 
 ## Growing a Slice
+
+- The `len` built-in function outputs how many elements the slice actually has.
+- The `cap` built-in function outputs the capacity of the slice, or how many elements it can have.
 
 ```go
 package main
@@ -193,8 +195,6 @@ len: 5
 cap: 8
 ```
 
-- The `len` built-in function outputs how many elements the slice actually has.
-- The `cap` built-in function outputs the capacity of the slice, or how many elements it can have.
 - In the next example we are going to visualize exactly how a slice resizes itself when in has reached its maximum
   capacity.
 - Given a slice that contains 4 elements (`A`, `B`, `C`, `D`) that has reached its max capacity:

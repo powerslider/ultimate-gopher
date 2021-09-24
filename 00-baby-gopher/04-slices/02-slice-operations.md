@@ -168,7 +168,7 @@ Dup:       [banana melon kiwi cherry]
 - A good reference is the following wiki in Go's own Github
   repo: [Slice Tricks](https://github.com/golang/go/wiki/SliceTricks).
   
-[Next Chapter](../04-slices/README.md)
+[Next Chapter](../05-maps/README.md)
 
 [Previous Section](01-basics.md)
 
