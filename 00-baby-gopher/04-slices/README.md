@@ -1,5 +1,9 @@
 # Chapter 4: Slices
 
+- [Overview](#overview)
+- [Basics](01-basics.md)
+- [Slice Operations](02-slice-operations.md)
+
 ## Overview
 
 Slices wrap arrays in Go, and provide a more general, powerful, and convenient interface to data sequences. 
@@ -12,6 +16,6 @@ In this chapter, we will cover:
 
 [Start Chapter](01-basics.md)
 
-[Next Chapter]()
+[Next Chapter](../05-maps/README.md)
 
 [Previous Chapter](../03-arrays-and-iteration/README.md)

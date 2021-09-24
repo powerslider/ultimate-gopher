@@ -6,6 +6,8 @@
 - [Appending to Slices](#appending-to-slices)
 - [Growing a Slice](#growing-a-slice)
 - [Making a Slice](#making-a-slice)
+- [Two-Dimensional Slices](#two-dimensional-slices)
+
 
 ## Overview
 
@@ -343,6 +345,38 @@ Output:
 ["" "" "foo" "bar"]
 ```
 
-[Next Section](02-tips-and-tricks.md)
+## Two-Dimensional Slices
+
+- Go by default has only one-dimensional slices.
+- To create a 2D version of a slice, it is necessary to create a slice of slices.
+- Because slices have variable length, it is possible to have each inner slice be a different length.
+
+```go
+package main
+
+import "fmt"
+
+type Modules [][]string
+
+func main() {
+	modules := Modules{
+		[]string{"Module 1"},
+		[]string{"Module 2", "Module 3"},
+		[]string{"Module 4", "Module 5", "Module 6"},
+	}
+
+	fmt.Println(modules)
+}
+```
+
+[Run Code](https://play.golang.org/p/h7rEsSNvJM1)
+
+Output:
+
+```
+[[Module 1] [Module 2 Module 3] [Module 4 Module 5 Module 6]]
+```
+
+[Next Section](02-slice-operations.md)
 
 [Chapter Overview](README.md)
