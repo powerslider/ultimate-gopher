@@ -5,7 +5,7 @@
     - [Defining Slice Subsets](#defining-slice-subsets)
     - [Mutating Slice Subsets](#mutating-slice-subsets)
 - [Copying Slices](#copying-slices)
-- [Slice Tricks](#slice-tricks)
+- [More Slice Operations](#more-slice-operations)
 
 ## Overview
 
@@ -160,7 +160,7 @@ Ref:       [orange grapes kiwi cherry]
 Dup:       [banana melon kiwi cherry]
 ```
 
-## Slice Tricks
+## More Slice Operations
 
 - By utilizing built-in functions such as `make`, `append`, `copy`, `len` and `cap` and slice subsets using the `:`
   syntax, lots of tricks and operations become possible very easily and take advantage of evolving compiler
