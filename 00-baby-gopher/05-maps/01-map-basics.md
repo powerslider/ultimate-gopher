@@ -1,14 +1,11 @@
-# Basics
+# Map Basics
 
 - [Overview](#overview)
 - [Defining Maps](#defining-maps)
 - [Initializing Maps](#initializing-maps)
 - [Length and Capacity](#length-and-capacity)
 - [Map Values](#map-values)
-- [Iterating Maps](#iterating-maps)
 - [Map Keys](#map-keys)
-- [Deleting Map Keys](#deleting-map-keys)
-- [Checking Map Values](#checking-map-values)
 
 ## Overview
 
@@ -192,47 +189,6 @@ Output:
 yellow
 ```
 
-## Iterating Maps
-
-- Maps can be iterated over in the same ways as arrays and slices with the subtle difference that the `range` keyword
-  returns the `key` and the `value` for each entry in the map:
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fruitColorMap := map[string]string{
-		"banana":     "yellow",
-		"strawberry": "red",
-		"kiwi":       "green",
-		"plum":       "purple",
-	}
-
-	for key, value := range fruitColorMap {
-		fmt.Printf("A %s is %s.\n", key, value)
-	}
-}
-```
-
-[Run Code](https://play.golang.org/p/4f3Z_2GeD1y)
-
-Output:
-
-```
-A banana is yellow.
-A strawberry is red.
-A kiwi is green.
-A plum is purple.
-```
-
----
-__IMPORTANT__
-> When iterating over a `map` with a `range` loop, the iteration order is NOT specified and is not guaranteed to be
-> the same from one iteration to the next.
----
-
 ## Map Keys
 
 - Map keys must be comparable.
@@ -296,97 +252,9 @@ map[]
 invalid map key type complex
 ```
 
-## Deleting Map Keys
+[Next Section](02-map-operations.md)
 
-- The `delete` built-in function can be used to remove a key and its value from a map:
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fruitColorMap := map[string]string{
-		"banana":     "yellow",
-		"strawberry": "red",
-		"kiwi":       "green",
-		"plum":       "purple",
-	}
-
-	delete(fruitColorMap, "banana")
-
-	fmt.Println(fruitColorMap)
-}
-```
-
-[Run Code](https://play.golang.org/p/o26mLljvXOM)
-
-Output:
-
-```
-map[kiwi:green plum:purple strawberry:red]
-```
-
-## Checking Map Values
-
-- Maps in Go return an optional second argument that will tell you if the key exists in the map:
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fruitColorMap := map[string]string{
-		"banana":     "yellow",
-		"strawberry": "red",
-		"kiwi":       "green",
-		"plum":       "purple",
-	}
-
-	key := "banana"
-	value, ok := fruitColorMap[key]
-	if ok {
-		fmt.Printf("Found key %q: %q", key, value)
-	} else {
-		fmt.Printf("Key not found: %q", key)
-	}
-}
-```
-
-[Run Code](https://play.golang.org/p/0_jwui01d58)
-
-Output:
-
-```
-Found key "banana": "yellow"
-```
-
-- We can simplify a bit the syntax by inlining the `ok` variable:
-
-```go
-package main
-
-import "fmt"
-
-func main() {
-	fruitColorMap := map[string]string{
-		"banana":     "yellow",
-		"strawberry": "red",
-		"kiwi":       "green",
-		"plum":       "purple",
-	}
-
-	key := "banana"
-	if value, ok := fruitColorMap[key]; ok {
-		fmt.Printf("Found key %q: %q", key, value)
-	} else {
-		fmt.Printf("Key not found: %q", key)
-	}
-}
-```
-
-
+[Chapter Overview](README.md)
 
 
 

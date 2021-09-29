@@ -1,7 +1,7 @@
 # Chapter 4: Slices
 
 - [Overview](#overview)
-- [Basics](01-basics.md)
+- [Slice Basics](01-slice-basics.md)
 - [Slice Operations](02-slice-operations.md)
 
 ## Overview
@@ -14,7 +14,7 @@ In this chapter, we will cover:
 - Work with subsets of slices.
 - Some slice tricks.
 
-[Start Chapter](01-basics.md)
+[Start Chapter](01-slice-basics.md)
 
 [Next Chapter](../05-maps/README.md)
 

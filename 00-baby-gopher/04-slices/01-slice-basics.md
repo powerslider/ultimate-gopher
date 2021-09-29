@@ -1,4 +1,4 @@
-# Basics
+# Slice Basics
 
 - [Overview](#overview)
 - [Iteration](#iteration)

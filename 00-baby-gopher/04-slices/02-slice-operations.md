@@ -170,6 +170,6 @@ Dup:       [banana melon kiwi cherry]
   
 [Next Chapter](../05-maps/README.md)
 
-[Previous Section](01-basics.md)
+[Previous Section](01-slice-basics.md)
 
 [Chapter Overview](README.md)
